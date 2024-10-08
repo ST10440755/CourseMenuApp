@@ -90,7 +90,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
-        <Text style={styles.headerText}>COURSE12</Text>
+        <Text style={styles.headerText}>COURSE MENU APP</Text>
       </View>
       <View style={styles.statsContainer}>
         <View style={styles.totalContainer}>
@@ -98,7 +98,7 @@ export default function App() {
           <Text style={styles.statsText}>{total}</Text>
         </View>
         <View style={styles.totalContainer}>
-          <Text style={styles.statsText}>AVERAGE PRICE</Text>
+          <Text style={styles.statsText}></Text>
           {/* Future implementation */}
         </View>
       </View>
@@ -170,11 +170,11 @@ const styles = StyleSheet.create({
     marginTop: 0,
   },
   headerContainer: {
-    alignItems: 'flex-start', // corrected from 'left' to 'flex-start'
+    alignItems: 'center', // corrected from 'left' to 'flex-start'
     marginBottom: 10,
   },
   headerText: {
-    fontSize: 24,
+    fontSize: 30,
     color: '#e28413',
     //fontFamily: 'Montserrat_700Bold',
   },
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   statsText: {
-    fontSize: 18,
+    fontSize: 30,
     color: '#fbf5f3',
     //fontFamily: 'Montserrat_400Regular',
   },
