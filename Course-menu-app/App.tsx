@@ -195,23 +195,23 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   menuName: {
-    fontSize: 18,
+    fontSize: 30,
     fontWeight: 'bold',
     color: '#fbf5f3',
     //fontFamily: 'Montserrat_700Bold',
   },
   menuDescription: {
-    fontSize: 16,
+    fontSize: 25,
     color: '#fbf5f3',
     //fontFamily: 'Montserrat_400Regular',
   },
   menuPrice: {
-    fontSize: 16,
+    fontSize: 30,
     color: 'green',
     //fontFamily: 'Montserrat_400Regular',
   },
   menuCourse: {
-    fontSize: 16,
+    fontSize: 30,
     color: 'blue',
     //fontFamily: 'Montserrat_400Regular',
   },
